@@ -24,12 +24,12 @@ to_mail = mailadd_get()
 #
 smtp_host = 'isehara-3lv.sakura.ne.jp' #サーバを指定（このサイトのサブドメイン名）
 smtp_port = '587' #ポートを指定(imap指定と同じ)
-smtp_account_id = 'rusami-202003@isehara-3lv.sakura.ne.jp' #アカウントを指定
-smtp_account_pass = 'X&k3Yua7' #メールのパスワードを設定
+smtp_account_id = 'hogehoge.sakura.ne.jp' #アカウントを指定
+smtp_account_pass = 'hoge' #メールのパスワードを設定
 #
 # メール本体
 #
-from_mail = 'rusami.usual@icloud.com' #送信元
+from_mail = 'hogehogel@icloud.com' #送信元
 msg = message.EmailMessage()
 msg.set_content('本文です'); #本文を入力
 msg['Subject'] = 'テキストファイルから読み出して送信' #件名を入力

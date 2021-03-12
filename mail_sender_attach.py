@@ -10,8 +10,8 @@ from email.utils import formatdate
 #
 smtp_host = 'isehara-3lv.sakura.ne.jp' #サーバを指定（このサイトのサブドメイン名）
 smtp_port = '587' #ポートを指定(imap指定と同じ)
-smtp_account_id = 'rusami-202003@isehara-3lv.sakura.ne.jp' #アカウントを指定
-smtp_account_pass = 'X&k3Yua7' #メールのパスワードを設定
+smtp_account_id = 'rhogehoge.sakura.ne.jp' #アカウントを指定
+smtp_account_pass = 'hoge' #メールのパスワードを設定
 #
 # to read the text fille and set to the content
 #
@@ -28,7 +28,7 @@ msg['Subject'] = Header(subject, charset)
 # メール本体の設定
 #
 from_mail = 'hoge@icloud.com' #送信元
-to_mail = 'rusami.usual@icloud.com'
+to_mail = 'hoge@icloud.com'
 msg['From'] = from_mail
 msg['Bcc'] = to_mail
 msg['Date'] = formatdate(localtime=True)
