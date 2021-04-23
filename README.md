@@ -5,3 +5,6 @@
 ・excelファイルハンドリング（excelセルの処理、PDFで書き出し、excelファイル上のmail addressにメール送信）
 
 ・web scraping
+
+・weather forecast json
+
