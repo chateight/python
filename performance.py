@@ -10,7 +10,7 @@ sqt = 0;
 for i in range(2, 1000000):        # check prime numbers
     flag = False;
     sqt = math.sqrt(i)
-    for j in range(2, int(sqt)):
+    for j in range(2, int(sqt) + 1):
         if i%j == 0:
             flag = True
             break
@@ -19,9 +19,9 @@ for i in range(2, 1000000):        # check prime numbers
 
 
 end = time.time()
-print('{:.0f}'.format((end-start)*1000)+ " ms")
+print("elapsed time : ",'{:.0f}'.format((end-start)*1000)+ " ms")
 print("number of prime numbers(up to 1M) : ",len(set))
 print("")
 print("last five prime numbers")
-for i in range(1,6):
-    print(set[-i])
+for i in range(5):
+    print(set[-5 + i])
