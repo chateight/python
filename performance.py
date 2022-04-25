@@ -21,3 +21,7 @@ for i in range(2, 1000000):        # check prime numbers
 end = time.time()
 print('{:.0f}'.format((end-start)*1000)+ " ms")
 print("number of prime numbers(up to 1M) : ",len(set))
+print("")
+print("last five prime numbers")
+for i in range(1,6):
+    print(set[-i])
