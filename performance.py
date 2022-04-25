@@ -6,7 +6,7 @@ start = time.time()
 
 flag = False
 sqt = 0;
-for i in range(2, 1000000):        # check prime numbers
+for i in range(2, 100):        # check prime numbers
     flag = False;
     sqt = math.sqrt(i)
     for j in range(2, int(sqt)):
@@ -14,7 +14,7 @@ for i in range(2, 1000000):        # check prime numbers
             flag = True
             break
     if flag != True:
-        NOP
+        print(i)
 
 
 end = time.time()
