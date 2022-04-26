@@ -6,7 +6,9 @@ set = list()
 
 flag = False
 sqt = 0;
-for i in range(2, 1000001):        # check prime numbers
+num = 1000000
+
+for i in range(2, num + 1):        # check prime numbers
     flag = False;
     sqt = math.sqrt(i)
     for j in range(2, int(sqt) + 1):
