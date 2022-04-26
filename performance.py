@@ -1,4 +1,3 @@
-from telnetlib import NOP
 import time
 import math
 
@@ -7,7 +6,7 @@ set = list()
 
 flag = False
 sqt = 0;
-for i in range(2, 1000000):        # check prime numbers
+for i in range(2, 1000001):        # check prime numbers
     flag = False;
     sqt = math.sqrt(i)
     for j in range(2, int(sqt) + 1):
